@@ -1,0 +1,40 @@
+{
+  "name": "app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "body-parser": "^1.15.0",
+    "config": "^1.19.0",
+    "connect-redis": "^3.0.2",
+    "cookie": "^0.2.3",
+    "cookie-parser": "^1.4.1",
+    "cookie-signature": "^1.0.6",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^1.0.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-contrib-cssmin": "^0.14.0",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^0.11.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-run": "^0.5.2",
+    "mysql": "^2.10.2",
+    "ngeohash": "^0.6.0",
+    "node-static": "^0.7.7",
+    "request": "^2.65.0",
+    "sqlite3": "^3.1.0",
+    "wechat": "^2.0.3",
+    "wechat-oauth": "^1.1.1",
+    "ws": "^0.8.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hanxi",
+  "license": "MIT"
+}
